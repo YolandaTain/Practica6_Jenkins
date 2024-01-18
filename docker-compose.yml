@@ -1,6 +1,6 @@
 version: '3'
 services:
   php:
-    image: colegula/practica6_jenkins:latest
+    image: yolandatain/practica6:latest
     ports:
       - 80:80
