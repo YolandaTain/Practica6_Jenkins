@@ -1,6 +1,2 @@
-version: '3'
-services:
-  php:
-    image: yolandatain/practica6:latest
-    ports:
-      - 80:80
+FROM httpd:2.4
+COPY src/ /usr/local/apache2/htdocs/
